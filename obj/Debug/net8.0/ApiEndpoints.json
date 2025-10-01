@@ -2,7 +2,7 @@
   {
     "ContainingType": "CRUD_Empresa.Controllers.EmpresaController",
     "Method": "CriarEmpresa",
-    "RelativePath": "crud_empresas",
+    "RelativePath": "",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,7 @@
   {
     "ContainingType": "CRUD_Empresa.Controllers.EmpresaController",
     "Method": "BuscarEmpresaPorId",
-    "RelativePath": "crud_empresas/{id}",
+    "RelativePath": "{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -34,7 +34,7 @@
   {
     "ContainingType": "CRUD_Empresa.Controllers.EmpresaController",
     "Method": "AtualizarEmpresa",
-    "RelativePath": "crud_empresas/{id}",
+    "RelativePath": "{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -55,7 +55,7 @@
   {
     "ContainingType": "CRUD_Empresa.Controllers.EmpresaController",
     "Method": "RemoverEmpresa",
-    "RelativePath": "crud_empresas/{id}",
+    "RelativePath": "{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -71,7 +71,7 @@
   {
     "ContainingType": "CRUD_Empresa.Controllers.EmpresaController",
     "Method": "ListarEmpresas",
-    "RelativePath": "crud_empresas/listagem",
+    "RelativePath": "listagem",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -87,7 +87,7 @@
   {
     "ContainingType": "CRUD_Empresa.Controllers.EmpresaController",
     "Method": "ListarEmpresasAll",
-    "RelativePath": "crud_empresas/listagem_completa",
+    "RelativePath": "listagem_completa",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -6,7 +6,7 @@ using CRUD_Empresa.Models.Dtos;
 
 namespace CRUD_Empresa.Controllers
 {
-    [Route("/crud_empresas")]
+    [Route("")]
     [ApiController]
     public class EmpresaController : ControllerBase
     {
