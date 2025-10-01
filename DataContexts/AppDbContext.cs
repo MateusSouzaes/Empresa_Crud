@@ -11,5 +11,6 @@ namespace CRUD_Empresa.DataContexts
 
         }
         public DbSet<Empresa> Empresas { get; set; }
+        public DbSet<Estado> Estados { get; set; }
     }
 }

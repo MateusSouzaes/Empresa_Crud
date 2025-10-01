@@ -1,3 +1,12 @@
+using CRUD_Empresa.Controllers;
+using Microsoft.AspNetCore.Mvc;
+using CRUD_Empresa.Models.Dtos;
+using CRUD_Empresa.Models;
+using CRUD_Empresa.DataContexts;
+using Microsoft.EntityFrameworkCore;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +16,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var connectionString = builder.Configuration.GetConnectionString("default");
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
+    );
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
